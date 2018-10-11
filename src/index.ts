@@ -13,9 +13,9 @@ const defaultOptions = {
   paths: ['README.md', 'Readme.md', 'readme.md', 'README', 'Readme', 'readme']
 };
 
-function readmeAutocommit ( options? ) {
+function readmeAutocommit ( customOptions?: Partial<typeof defaultOptions> ) {
 
-  options = Object.assign ( {}, defaultOptions, options );
+  const options = Object.assign ( {}, defaultOptions, customOptions );
 
   return {
     description: 'Autocommit changes to the readme',
