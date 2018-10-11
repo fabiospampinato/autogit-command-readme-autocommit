@@ -29,7 +29,7 @@
     "autocommit",
     "readme"
   ],
-	"dependencies": {
+  "dependencies": {
     "autogit-plugin-autocommit": "^1.0.0",
     "autogit-plugin-push": "^1.0.0"
   },
