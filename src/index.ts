@@ -29,4 +29,4 @@ function readmeAutocommit ( customOptions?: Partial<typeof defaultOptions> ) {
 
 /* EXPORT */
 
-export = Object.assign ( readmeAutocommit, { default: readmeAutocommit } );
+export default readmeAutocommit;
