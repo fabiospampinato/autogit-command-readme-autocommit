@@ -1,7 +1,7 @@
 {
   "name": "autogit-command-readme-autocommit",
   "description": "A command for autocommitting changes to the readme.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
